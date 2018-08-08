@@ -11,7 +11,8 @@ Get/Agg_Irrigation_Withdrawal_WaterUseML
 - ReportAreaCode [WHERE]  
 - VariableCode [WHAT]  
 
-
+## Output  
+ 
 Field   name | Example | Description  
 -- | -- | --
 OrganizationCode | UDWR | add

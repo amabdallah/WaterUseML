@@ -26,9 +26,9 @@ Amount | 20000 | add
 
 
 
-2.Aggregated water availability
+# 2.Aggregated water availability
 
-## get calls
+## get call
 Get/Agg_WaterAvailability_WaterUseML 
 
 ## Input to get calls  
@@ -56,9 +56,9 @@ Amount | 20000 | add
 
 
 
-3.Aggregated regulatory 
+# 3.Aggregated regulatory 
 
-## get calls
+## get call
 Get/Agg_regulatory_WaterUseML  
 
 ## Input to get calls  

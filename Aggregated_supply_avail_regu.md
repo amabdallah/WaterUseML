@@ -56,7 +56,7 @@ Amount | 20000 | add
 
 
 
-3. Aggregated regulatory 
+3.Aggregated regulatory 
 
 ## get calls
 Get/Agg_regulatory_WaterUseML  

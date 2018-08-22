@@ -31,7 +31,9 @@ The Internet of Water report lists this use case to show the value of answering 
 
 WaDE has the ability to answer the data questions across its member states which already share their data. The next WaDE schema could support answering the questions as it   
 i. enables time series syntax,   
+
 ii. uses controlled vocabulary to map native and general terms (yet to be discussed on its possibility and use), and   
+
 iii. uses longitude and latitide coordinates to reference the sites or centroid of polygons and enable their discovery through geospatial searches.   
 
 The following are two motivating use cases that show the value of the interoperable WaDE schema which overcomes both the heterogeneous semantics (different terms to describe water rights and use across states) and syntax (different data structures across states). 

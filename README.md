@@ -1,15 +1,15 @@
-# WaterUseML
-Draft description of the next WaterUseML
+# WaterUseML  
+Draft description of the next WaterUseML  
 
-# Why WaterUseML?  
+# Why WaterUseML?    
 
-See this presentation by Mindi Dalton at the WSWC Summer Meeting 2018
-http://www.westernstateswater.org/wp-content/uploads/2018/08/Dalton-WAUSP_WSWC_180802.pdf
+See this presentation by Mindi Dalton at the WSWC Summer Meeting 2018  
+http://www.westernstateswater.org/wp-content/uploads/2018/08/Dalton-WAUSP_WSWC_180802.pdf  
 
-See WaDE goals 
-http://wade.westernstateswater.org/
+See WaDE goals   
+http://wade.westernstateswater.org/  
 
-Water use and availability data have common metadata with WaterML and GWML2 time series data with also unique metadata. The goal here is to building on the commonality of WaterML and GWML2 and add unique needed water use metadata into a new WaterUseML schema.  
+Water use and availability data have common metadata with WaterML and GWML2 time series data with also unique metadata. The goal here is to building on the commonality of WaterML and GWML2 and add unique needed water use metadata into a new WaterUseML schema.    
 
 
 **WaterML2**  

@@ -42,12 +42,16 @@ The purpose here is to enable the underlying capability to allow others to answe
 
 
 ### Example question 1: Aggregated   
-What is the _annual_ _fresh_ water amount used for _thermoelectric_ purposes in the Bear River watershed that spans Utah, Wyoming, and Idaho for all the years we have data for?   
+What is the water amount used for _thermoelectric_  [Variable]  in the Bear River watershed [Space] that spans Utah, Wyoming, and Idaho for all the years we have data for [time]?   
 
 In the answer, list the unit, amount, beneficial use category, source of water (ground or surface water).  
 
+Filters that can selected
+* specific years
 * Annual or monthly
 * fresh or saline
+
+Variables
 * thermoelectric, agriculture, or municipal
 * withdrawn, returned, consumed, transferred out of, transferred into  
 
@@ -56,7 +60,7 @@ What is the annual amount of water that is imported or exported into or out of a
 
 
 ### Example question 3: site_specific   
-What is the water rights annual volume/flow for agriculture and municipal purposes in the Upper Colorado that spans Wyoming, Colorado, Utah, New Mexico, and Arizona all the years we have data for? list all water rights and their priority
+What is the water rights annual volume/flow for _agriculture_ or _municipal_ purposes in the Upper Colorado that spans Wyoming, Colorado, Utah, New Mexico, and Arizona all the years we have data for? list all water rights and their priority
 
 
 Answering the questions within one state is easier using WaDE because of its standard and well described schema but the true power of WaDE or WaterUseML is to answer such questions across the boundaries of many states.  

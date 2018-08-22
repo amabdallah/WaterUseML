@@ -13,7 +13,7 @@ Water use and availability data have common metadata with WaterML and GWML2 time
 
 
 **WaterML2**  
-Description: http://www.waterml2.org/    
+Description: http://www.waterml2.org/ and https://www.cuahsi.org/uploads/pages/img/ODM1.1DesignSpecifications_.pdf 
 Application 1 for hydrology and weather observations at https://data.cuahsi.org/   
 Application 2 for reservoirs at https://water.usbr.gov/RWISmap.php  
 
@@ -92,7 +92,8 @@ The user provides selections in the following steps to answer the above use case
 
 The variables can be filtered or grouped like below. The user can query one or many at the same time. 
 
-In my opinion, the two fundemental and important parts that define the variable is the estimate type and its benificial use or sub-estimate.  
+In my opinion, the two fundemental and important parts that define the variable is the estimate type and its benificial use or sub-estimate. See here for hydrology  https://github.com/amabdallah/WaterUseML/blob/master/fundamental_characteristics.PNG
+
 Other info like the water source type (ground water or surface water), fresh or saline, etc are more details that perhaps can be filtered by option to the requested data. Perhaps, it can be implemented in a where-clause in the query.  
 
 

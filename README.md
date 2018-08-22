@@ -91,14 +91,20 @@ Selecting a layer (larger boundary than the site or the area) will send the coor
 
 3.	**Variable** from a drop-down menu, a user selects one or many controlled variables to search for their data values within the selected geospatial location and time range.   
 
-The variables can be filtered or grouped like below. The user can query one or many at the same time. 
+The variables can be filtered or grouped like below. The user can query one or many varaibles at the same time. 
 
-In my opinion, the two fundemental and important parts that define the variable is the estimate type and its benificial use or sub-estimate. See here for hydrology  https://github.com/amabdallah/WaterUseML/blob/master/fundamental_characteristics.PNG
+In my opinion, the two fundamental and important parts that define the variable is the estimate type and its beneficial use or sub-estimate. See here for hydrology  https://github.com/amabdallah/WaterUseML/blob/master/fundamental_characteristics.PNG
 
 Other info like the water source type (ground water or surface water), fresh or saline, etc are more details that perhaps can be filtered by option to the requested data. Perhaps, it can be implemented in a where-clause in the query.  
 
+The use cases should help us decide on the granularity of search capabilities. Right now in WaDE we have a search for "e.g., withdrawal" which can return all withdrawal water for all sorts of beneficial use.    
+A more granular search that would useful too is "withdrawal" for "irrigation". It still would potentially come with a mix of metadata like saline/fresh, surface/ground water, crop types. Two options to deal with such data 
 
-**Aggegated**    
+a. post process the resulting table into many groups (e.g., withdrawal water for irrigation -surface water)   
+b. provide upfront capability to send an optional filter request to add on the data values query. 
+
+
+**Aggregated**    
 Water Use, Agriculture   
 Water Use, Public Supply	  
 Water Use, Thermoelectric power	  
@@ -116,21 +122,21 @@ etc.
 
 
 **WaDE Catalog** 
-The first step needs to be supported by a Catalog similair to the existing WaDE portal but perhaps simpler to maintain. The Catalog is a centeral front end to all the seperate indivisual WaDE database implementation (i.e., node) for each state.
+The first step needs to be supported by a Catalog similar to the existing WaDE portal but perhaps simpler to maintain. The Catalog is a central front end to all the separate individual WaDE database implementation (i.e., node) for each state.
 
 The catalog harvests two items, i) all the sites or areas and their "type", and ii) variables that have data for the sites. 
-There are two benifets from excluding time in the form of months, years, or reporting years from the catalog  
+There are two benefits from excluding time in the form of months, years, or reporting years from the catalog  
 * reduces the burden to maintain and update the catalog. the catalog will be updated only if new sites (or areas), or variables are added.  
-* reduces the effort that users have to make to scroll through indivoiusal years. Interest in a specific time frame is handled as part of the next step to query data. the default is probably to return all the years   
+* reduces the effort that users have to make to scroll through individual years. Interest in a specific time frame is handled as part of the next step to query data. the default is probably to return all the years   
 
 
 ## Conceptual web-service steps to answer the data calls   
-Data query is supported at two interactive stages. First, search variables and their "sites" or "Areas". Second download or potentially vislalize the data for one or many sites and variables. 
+Data query is supported at two interactive stages. First, search variables and their "sites" or "Areas". Second download or potentially visualize the data for one or many sites and variables. 
 
 revise these   
 1.  The web-service will first call the WaDE catalog to look up all the site-specific locations or aggregated polygons within the provided boundary area which have attributes as the selected ones. The user will look up a summary of the locations of the returned sites and their attributes and decide to select which ones to get data values for.     
 
-2.  The web-service will call each WaDE-node that has the selected sites and attributes and return their time series data in a WaterUseML compliant format. Water rights or regaulatory data is an exception.    
+2.  The web-service will call each WaDE-node that has the selected sites and attributes and return their time series data in a WaterUseML compliant format. Water rights or regulatory data is an exception.    
 
 3.  The user can post-process or visualize (e.g., sum up the time series aggregated consumptive use) agriculture and municipal uses in all the Bear River/upper Colorado areas for the three states for each year.      
  

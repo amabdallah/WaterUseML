@@ -29,10 +29,10 @@ The [Internet of Water][1] report highlights the following two relevant fundamen
 The Internet of Water report lists this use case to show the value of answering the questions
 >"A water budget requires both of these types of data **water use in WaDE and natural systems in CUAHSI and EPA** to be integrated within a watershed.  A proof-in-concept that develops a shared platform of the relevant data needed to create a water budget at the location of power plants within one basin of interest could provide a powerful example of integrating open water data between hubs for sustainable water management."
 
-WaDE has the ability to answer the data questions across its member states which already share their data. The next WaDE schema could support answering the questions as it
-i) enables time series syntax,
-ii) uses controlled vocabulary to map native and general terms (yet to be discussed on its possibility and use), and 
-iii) uses longitude and latitide coordinates to reference the sites or centroid of polygons and enable their discovery through geospatial searches.  
+WaDE has the ability to answer the data questions across its member states which already share their data. The next WaDE schema could support answering the questions as it   
+i. enables time series syntax,   
+ii. uses controlled vocabulary to map native and general terms (yet to be discussed on its possibility and use), and   
+iii. uses longitude and latitide coordinates to reference the sites or centroid of polygons and enable their discovery through geospatial searches.   
 
 The following are two motivating use cases that show the value of the interoperable WaDE schema which overcomes both the heterogeneous semantics (different terms to describe water rights and use across states) and syntax (different data structures across states). 
 

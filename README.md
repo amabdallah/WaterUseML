@@ -61,10 +61,13 @@ What is the water rights annual volume/flow for agriculture and municipal purpos
 
 Answering the questions within one state is easier using WaDE because of its standard and well described schema but the true power of WaDE or WaterUseML is to answer such questions across the boundaries of many states.  
 
-## Promenent example services
+## Prominent example water data services  
 * [HydoClient](https://data.cuahsi.org/)
 * [RWISE](https://water.usbr.gov/RWISmap.php)
-* [Ground water](https://cida.usgs.gov/ngwmn/index.jsp)
+* [Ground water](https://cida.usgs.gov/ngwmn/index.jsp)  
+https://cida.usgs.gov/ngwmn/doc/NGWMN_Data_Portal_Help_Documentation.pdf
+
+* [WaDE](http://wade.westernstateswater.org/wade-by-datatype/)
 
 
 
@@ -80,9 +83,9 @@ The user provides selections in the following steps to answer the above use case
 
 1.  The web-service will first call the WaDE catalog to look up all the site-specific locations or aggregated polygons within the provided boundary area which have attributes as the selected ones. The user will look up a summary of the locations of the returned sites and their attributes and decide to select which ones to get data values for.    
 
-2.  The web-service will call each WaDE-node that has the selected sites and attributes and return their time series data in a WaterML complaint format.   
+2.  The web-service will call each WaDE-node that has the selected sites and attributes and return their time series data in a WaterUseML compliant format. Water rights or regaulatory data is an exception.   
 
-3.  The user can sum up the time series aggregated consumptive use for agriculture and municipal uses in all the Bear River/upper Colorado areas for the three states for each year.     
+3.  The user can post-process or visualize (e.g., sum up the time series aggregated consumptive use) agriculture and municipal uses in all the Bear River/upper Colorado areas for the three states for each year.     
 
 
 

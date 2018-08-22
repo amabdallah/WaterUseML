@@ -84,6 +84,10 @@ The user provides selections in the following steps to answer the above use case
 
 The variables can be filtered or grouped like below. The user can query one or many at the same time. 
 
+In my opinion, the two fundemental and important parts that define the variable is the estimate type and its benificial use or sub-estimate.
+Other info like the water source type (ground water or surface water), fresh or saline, etc are more details that perhaps can be filtered by option to the requested data. Perhaps, it can be implemented in a where-clause in the query.  
+
+
 **Aggegated**
 Water Use, Agriculture
 Water Use, Public Supply	
@@ -93,12 +97,14 @@ Water supply, dry
 Water supply, dry
 etc.
 
-**Site-Specific**
-Water Use, Agriculture
-Water Use, Public Supply	
-Water Use, Thermoelectric power
-Allocated water, Irrigation 
-etc.
+**Site-Specific**  
+Water Use, Agriculture  
+Water Use, Public Supply	  
+Water Use, Thermoelectric power 
+Allocated water, Irrigation  
+etc.  
+
+
 
 
 ## Conceptual web-service steps to answer the data calls   

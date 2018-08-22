@@ -84,7 +84,8 @@ https://cida.usgs.gov/ngwmn/doc/NGWMN_Data_Portal_Help_Documentation.pdf
 ## Steps to answer the questions   
 The user provides selections in the following steps to answer the above use case questions    
 
-1.	**Spatial boundary:** a user selects the Bear River Watershed or Upper Colorado boundary GIS layer to search for aggregated or site-specific water use data. The layer could exist within the portal as part of a larger shapefile for the US Major Watersheds, counties, states, or the user could import the layer to the Portal as a shapefile or a JSON file. The user could also draw a box within the map like HydroDekstop, or they could use the view boundary of the window as in HydroClient.
+1.	**Spatial boundary:** a user selects the Bear River Watershed or Upper Colorado boundary GIS layer to search for aggregated or site-specific water use data. The layer could exist within the portal as part of a larger shapefile for the US Major Watersheds, counties, states, or the user could import the layer to the Portal as a shapefile or a JSON file. The user could also draw a box within the map like HydroDekstop, or they could use the view boundary of the window as in HydroClient.  
+Selecting a layer (larger boundary than the site or the area) will send the coordinates to the catalog to use them to look up the Area or site code. [this is how HydroClient, GW network, and RWISS portals seems to behave]
 
 2.	**Time frame** a user provides the min and max time range in month/years or leave them blank to return all data for all existing years. The [Reclamation Water Information System (RWIS)][2] provides this specific or general time span search capability. 
 

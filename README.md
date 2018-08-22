@@ -70,14 +70,14 @@ What are the water rights for _agriculture_ in an area? list all water rights an
 Answering the questions within one state is easier using WaDE because of its standard and well described schema but the true power of WaDE or WaterUseML is to answer such questions across the boundaries of many states.  
 
 ## Prominent example water data services  
-* [HydoClient](https://data.cuahsi.org/)
+* [HydoClient](https://data.cuahsi.org/)   
 https://www.cuahsi.org/uploads/pages/img/ODM1.1DesignSpecifications_.pdf
 
-* [RWISE](https://water.usbr.gov/RWISmap.php)
-* [Ground water](https://cida.usgs.gov/ngwmn/index.jsp)  
-https://cida.usgs.gov/ngwmn/doc/NGWMN_Data_Portal_Help_Documentation.pdf
+* [RWISE](https://water.usbr.gov/RWISmap.php)  
+* [Ground water](https://cida.usgs.gov/ngwmn/index.jsp)    
+https://cida.usgs.gov/ngwmn/doc/NGWMN_Data_Portal_Help_Documentation.pdf   
 
-* [WaDE](http://wade.westernstateswater.org/wade-by-datatype/)
+* [WaDE](http://wade.westernstateswater.org/wade-by-datatype/)   
 
 
 

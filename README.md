@@ -61,11 +61,11 @@ Variables
 
  ### Example question 2: Aggregated   
 What is the annual amount of water that is imported or exported into or out of a basin (selected boundary)?   
+ (e.g., the Upper Colorado that spans Wyoming, Colorado, Utah, New Mexico, and Arizona?
 
 
-### Example question 3: site_specific   
-What is the water rights annual volume/flow for _agriculture_ or _municipal_ purposes in the Upper Colorado that spans Wyoming, Colorado, Utah, New Mexico, and Arizona all the years we have data for? list all water rights and their priority
-
+### Example question 3: Site_specific   
+What are the water rights for _agriculture_ in an area? list all water rights and their priority
 
 Answering the questions within one state is easier using WaDE because of its standard and well described schema but the true power of WaDE or WaterUseML is to answer such questions across the boundaries of many states.  
 
@@ -88,11 +88,11 @@ The user provides selections in the following steps to answer the above use case
 
 2.	**Time frame** a user provides the min and max time range in month/years or leave them blank to return all data for all existing years. The [Reclamation Water Information System (RWIS)][2] provides this specific or general time span search capability. 
 
-3.	**Variable** from a drop-down menu, a user selects one or many controlled variables to search for their data values within the selected geospatial location and time range. 
+3.	**Variable** from a drop-down menu, a user selects one or many controlled variables to search for their data values within the selected geospatial location and time range.   
 
 The variables can be filtered or grouped like below. The user can query one or many at the same time. 
 
-In my opinion, the two fundemental and important parts that define the variable is the estimate type and its benificial use or sub-estimate.
+In my opinion, the two fundemental and important parts that define the variable is the estimate type and its benificial use or sub-estimate.  
 Other info like the water source type (ground water or surface water), fresh or saline, etc are more details that perhaps can be filtered by option to the requested data. Perhaps, it can be implemented in a where-clause in the query.  
 
 
@@ -113,11 +113,6 @@ Allocated water, Irrigation
 etc.   
 
 
-
-
-## Conceptual web-service steps to answer the data calls   
-Data query is supported at two interactive stages. First, search variables and their "sites" or "Areas". Second download or potentially vislalize the data for one or many sites and variables. 
-
 **WaDE Catalog** 
 The first step needs to be supported by a Catalog similair to the existing WaDE portal but perhaps simpler to maintain. The Catalog is a centeral front end to all the seperate indivisual WaDE database implementation (i.e., node) for each state.
 
@@ -126,6 +121,11 @@ There are two benifets from excluding time in the form of months, years, or repo
 * reduces the burden to maintain and update the catalog. the catalog will be updated only if new sites (or areas), or variables are added.  
 * reduces the effort that users have to make to scroll through indivoiusal years. Interest in a specific time frame is handled as part of the next step to query data. the default is probably to return all the years   
 
+
+## Conceptual web-service steps to answer the data calls   
+Data query is supported at two interactive stages. First, search variables and their "sites" or "Areas". Second download or potentially vislalize the data for one or many sites and variables. 
+
+revise these   
 1.  The web-service will first call the WaDE catalog to look up all the site-specific locations or aggregated polygons within the provided boundary area which have attributes as the selected ones. The user will look up a summary of the locations of the returned sites and their attributes and decide to select which ones to get data values for.     
 
 2.  The web-service will call each WaDE-node that has the selected sites and attributes and return their time series data in a WaterUseML compliant format. Water rights or regaulatory data is an exception.    

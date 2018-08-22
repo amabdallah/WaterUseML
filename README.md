@@ -121,6 +121,12 @@ Allocated water, Irrigation
 etc.   
 
 
+Check out this idea for a single WaDE portal for both select by data type and by location and for both aggregate and site-specific data. I'm not sure how it could be implemented but I think its possible based on what I've seen in other applications.         
+https://github.com/amabdallah/WaterUseML/blob/master/Merged_portal.PNG
+
+First the user can toggle between site-specific and aggregate data. Within one of them, the user can select a data type which is Select by data type. If they select "All" data types, then that would become "search by location". With "All" selected, the user can see all data types for each location (e.g., Cache County)    
+
+
 **WaDE Catalog** 
 The first step needs to be supported by a Catalog similar to the existing WaDE portal but perhaps simpler to maintain. The Catalog is a central front end to all the separate individual WaDE database implementation (i.e., node) for each state.
 

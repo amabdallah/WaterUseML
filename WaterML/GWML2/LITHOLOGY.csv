@@ -1,0 +1,5 @@
+"AgencyCd","SiteNo","LithologyID","LithologyDescription","Uom","LithologyDepthFrom","LithologyDepthFromUnit","LithologyDepthTo","LithologyDepthToUnit"
+"USGS","403511111541501","USGS.403511111541501.1.","Clay, some Sand","Unknown","0","feet","35","feet"
+"USGS","403511111541501","USGS.403511111541501.2.","Clay","Unknown","35","feet","80","feet"
+"USGS","403511111541501","USGS.403511111541501.3.","Sand & Gravel","Unknown","80","feet","161","feet"
+"USGS","403511111541501","USGS.403511111541501.4.1","Gravel & Clay","Unknown","161","feet","800","feet"

@@ -1,0 +1,4 @@
+AgencyCd,SiteNo,ScreenDepthFrom,ScreenDepthFromUnit,ScreenDepthTo,ScreenDepthToUnit,holeSize,holeSizeUnit,ScreenMaterial,ScreenDiameter,ScreenDiameterUnit
+"USGS",403511111541501,319,feet,610,feet,"","","Screen, Type Not Known",16,"in"
+"USGS",403511111541501,645,feet,650,feet,"","","Screen, Type Not Known",16,"in"
+"USGS",403511111541501,745,feet,750,feet,"","","Screen, Type Not Known",16,"in"

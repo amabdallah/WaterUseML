@@ -1,0 +1,3 @@
+AgencyCd,SiteNo,CasingDepthFrom,CasingDepthFromUnit,CasingDepthTo,CasingDepthToUnit,CasingMaterial,CasingDiameter,CasingDiameterUnit
+"USGS",403511111541501,0,feet,313,feet,"Steel",20,"in"
+"USGS",403511111541501,290,feet,800,feet,"Steel",16,"in"

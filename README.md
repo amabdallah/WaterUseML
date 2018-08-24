@@ -40,14 +40,15 @@ What is the water amount used for _thermoelectric_  [Variable]  in the Bear Rive
 
 In the answer, list the unit, amount, beneficial use category, source of water (ground or surface water).  
 
-Filters that can selected
+Potentially optional filters that can selected   
 * specific years
 * Annual or monthly
 * fresh or saline
+* surface or groundwater (i.e,. source type)  
 
-Variables
-* thermoelectric, agriculture, or municipal
-* withdrawn, returned, consumed, transferred out of, transferred into  
+Variables  
+* thermoelectric, agriculture, or municipal  
+* withdrawn, returned, consumed, transferred out of, transferred into    
 
  ### Example question 2: Aggregated   
 What is the annual amount of water that is imported or exported into or out of a basin (selected boundary)?   

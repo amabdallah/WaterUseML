@@ -3,26 +3,26 @@ Draft description of the next WaterUseML
 
 # Why WaterUseML?    
 
-See this presentation by Mindi Dalton at the WSWC Summer Meeting 2018  
-http://www.westernstateswater.org/wp-content/uploads/2018/08/Dalton-WAUSP_WSWC_180802.pdf  
+Mindi Dalton from the USGS explains the importance and need for national water use data at the WSWC Summer Meeting 2018    
+http://www.westernstateswater.org/wp-content/uploads/2018/08/Dalton-WAUSP_WSWC_180802.pdf    
 
 See WaDE goals   
-http://wade.westernstateswater.org/  
+http://wade.westernstateswater.org/   
 
 Water use and availability data have common metadata with WaterML and GWML2 time series data with also unique metadata. The goal here is to build on the commonality of WaterML and GWML2 and add unique needed water use metadata into a new WaterUseML schema.    
 
 
-**WaterML2**  
+**WaterML2**   
 Description: http://www.waterml2.org/ and https://www.cuahsi.org/uploads/pages/img/ODM1.1DesignSpecifications_.pdf 
 Application 1 for hydrology and weather observations at https://data.cuahsi.org/   
 Application 2 for reservoirs at https://water.usbr.gov/RWISmap.php  
 
-**(GroundWaterML2) GWML2**   
-Description: http://www.opengeospatial.org/standards/gwml2
-Application for groundwater levels and water quality: https://cida.usgs.gov/ngwmn/index.jsp
+**(GroundWaterML2) GWML2**    
+Description: http://www.opengeospatial.org/standards/gwml2  
+Application for groundwater levels and water quality: https://cida.usgs.gov/ngwmn/index.jsp  
 
 
-# Use Cases  
+# Use Cases   
 A successful data services design is built to serve stakeholder driven use cases.  
 
 The [Internet of Water][1] report highlights the following two relevant fundamental questions that we are currently unable to answer  in a timely fashion about our water systems.

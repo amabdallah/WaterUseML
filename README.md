@@ -14,8 +14,8 @@ Water use and availability data have common metadata with WaterML and GWML2 time
 
 **WaterML2**   
 Description: http://www.waterml2.org/ and https://www.cuahsi.org/uploads/pages/img/ODM1.1DesignSpecifications_.pdf 
-Application 1 for hydrology and weather observations at https://data.cuahsi.org/   
-Application 2 for reservoirs at https://water.usbr.gov/RWISmap.php  
+* Application 1 for hydrology and weather observations at https://data.cuahsi.org/   
+* Application 2 for reservoirs at https://water.usbr.gov/RWISmap.php  
 
 **(GroundWaterML2) GWML2**    
 Description: http://www.opengeospatial.org/standards/gwml2  

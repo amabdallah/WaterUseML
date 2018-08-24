@@ -33,17 +33,7 @@ The [Internet of Water][1] report highlights the following two relevant fundamen
 The Internet of Water report lists this use case to show the value of answering the questions
 >"A water budget requires both types of data **water use in WaDE and natural systems in CUAHSI and EPA** to be integrated within a watershed.  A proof-in-concept that develops a shared platform of the relevant data needed to create a water budget at the location of power plants within one basin of interest could provide a powerful example of integrating open water data between hubs for sustainable water management."
 
-WaDE has the ability to answer the data questions across its member states which already share their data. The next WaDE schema could support answering the questions as it   
-i. enables time series syntax,   
-
-ii. uses controlled vocabulary to map native and general terms (yet to be discussed on its possibility and use), and   
-
-iii. uses longitude and latitude coordinates to reference the sites or centroid of polygons and enable their discovery through geospatial searches.   
-
-The following are two motivating use cases that show the value of the interoperable WaDE schema which overcomes both the heterogeneous semantics (different terms to describe water rights and use across states) and syntax (different data structures across states). 
-
-The purpose here is to enable the underlying capability to allow others to answer them at different spatial scales. The two questions serve as generics examples to other questions that could span geospatial areas across states boundary lines, many years, and many different variables of interest. 
-
+The following questions motivate use cases that show the value of the interoperable WaDE schema which overcomes both the heterogeneous semantics (different terms to describe water rights and use across states) and syntax (different data structures across states). 
 
 ### Example question 1: Aggregated   
 What is the water amount used for _thermoelectric_  [Variable]  in the Bear River watershed [Space] that spans Utah, Wyoming, and Idaho for all the years we have data for [time]?   
@@ -79,7 +69,15 @@ https://cida.usgs.gov/ngwmn/doc/NGWMN_Data_Portal_Help_Documentation.pdf
 
 * [WaDE](http://wade.westernstateswater.org/wade-by-datatype/)   
 
+WaDE has the ability to answer the data questions across its member states which already share their data. The next WaDE schema could support answering the questions as it   
+i. enables time series syntax,   
 
+ii. uses controlled vocabulary to map native and general terms (yet to be discussed on its possibility and use), and   
+
+iii. uses longitude and latitude coordinates to reference the sites or centroid of polygons and enable their discovery through geospatial searches.   
+
+
+The purpose here is to enable the underlying capability to allow others to answer them at different spatial scales. The two questions serve as generics examples to other questions that could span geospatial areas across states boundary lines, many years, and many different variables of interest. 
 
 ## Steps to answer the questions   
 The user provides selections in the following steps to answer the above use case questions    

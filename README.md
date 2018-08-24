@@ -35,7 +35,7 @@ The Internet of Water report lists this use case to show the value of answering 
 
 The following questions motivate use cases that show the value of the interoperable WaDE schema which overcomes both the heterogeneous semantics (different terms to describe water rights and use across states) and syntax (different data structures across states). 
 
-### Example question 1: Aggregated   
+### Example question 1: Aggregated (for each use type)  
 What is the water amount used for _thermoelectric_  [Variable]  in the Bear River watershed [Space] that spans Utah, Wyoming, and Idaho for all the years we have data for [time]?   
 
 In the answer, list the unit, amount, beneficial use category, source of water (ground or surface water).  
@@ -48,7 +48,14 @@ Potentially optional filters that can selected
 
 Variables  
 * thermoelectric, agriculture, or municipal  
-* withdrawn, returned, consumed, transferred out of, transferred into    
+
+Use types (each type has its seperatre API Get call)  
+
+withdrawn, returned, consumed, transferred out of, transferred into    
+
+One reason for seperating the calls is that each use type has its own seperate tables and thus has its unique metadata.   
+
+
 
  ### Example question 2: Aggregated   
 What is the annual amount of water that is imported or exported into or out of a basin (selected boundary)?   

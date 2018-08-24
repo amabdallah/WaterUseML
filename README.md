@@ -22,7 +22,7 @@ Water use and availability data have common metadata with WaterML and GWML2 time
 * Application for groundwater levels and water quality: https://cida.usgs.gov/ngwmn/index.jsp  
 
 
-# Use Cases   
+# WaterUseML Use Cases   
 A successful data services design is built to serve stakeholder driven use cases.  
 
 The [Internet of Water][1] report highlights the following two relevant fundamental questions that we are currently unable to answer  in a timely fashion about our water systems.
